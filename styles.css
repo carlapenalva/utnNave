@@ -9,6 +9,7 @@
 
 body {
     color: #2b2b2b;
+    background-color: #fcfbff;
 }
 header {
     background:/* #fff;*/#ffffff;
@@ -128,6 +129,94 @@ ol, li {
 .hover:hover {
     background-color: #e4d7ff;
     color: #360c72;
+}
+
+/* Main content desktop */
+.main-content-desktop {
+    max-width: 1022px;
+    width: calc(100% - 48px);
+    margin: 0 auto;
+    position: relative;
+    padding: 30px 0 0;
+}
+.main-hero img{
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 64px;
+}
+.main-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.main-section-content{
+    width: 100%;
+    display: grid;
+    /* CLAVE: Dividir el contenedor en 3 columnas de ancho igual (1fr) */
+    grid-template-columns: 1fr 1fr 1fr; 
+    /* grid-template-columns: repeat(3, 1fr); /* Alternativa más limpia */
+    
+    gap: 16px; /* El gap de Grid maneja el espaciado interno perfectamente */
+    
+    /* Para centrar el bloque completo de 100% de ancho (opcional) */
+    max-width: 1022px; /* Si quieres limitar el ancho como en el header */
+    margin: 0 auto;
+    margin: 0 auto;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.main-section-content-div{
+    margin-top: 12px;
+    background: #fff;
+    border-radius: 16px;
+    min-height: 184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    box-sizing: border-box;
+}
+.card-text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    grid-gap: 16px;
+    gap: 16px;
+}
+.card-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;
+    width: 62px;
+    height: 62px;
+    background: #f0eafc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.section-promotion{
+    width: 100%;
+    
+}
+.section-promotion-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(54, 12, 114);
+    border-radius: 32px;
+    max-width: 1022px;
+    margin: 0 auto;
+    padding: 32px 40px;
+    color: #fff;
 }
 
 }
