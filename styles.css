@@ -19,7 +19,9 @@ header {
 }
 
 @media(max-width: 995px) {
-   
+   .header-desktop {
+        display: none;
+    }
     .header-mobile {
         display: flex;
         justify-content: center;
@@ -58,10 +60,6 @@ header {
     .header-mobile {
         display: none;
     }
-    nav {
-        position: relative;
-    }
-   
     
     nav .header-desktop {
         width: 100%;
@@ -70,7 +68,9 @@ header {
         background: hsla(0, 0%, 100%, .8);
         display: flex;
         align-items: center;
-        /*justify-content: space-between*/
+    }
+    .header-list{
+        position: relative;
     }
     .header-list::after{
         content: "";
