@@ -210,13 +210,45 @@ ol, li {
 .section-promotion-div{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     background-color: rgb(54, 12, 114);
     border-radius: 32px;
     max-width: 1022px;
     margin: 0 auto;
     padding: 32px 40px;
     color: #fff;
+}
+
+.promotion-div-uno{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.promotion-div-uno h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2rem;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+.promotion-div-uno p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.375rem;
+}
+.btn-terciary{
+    color: #652bdf;
+    background-color: #fff;
+    padding: 10px 32px;
+    min-width: 192px;
+    min-height: 43px;
+    font-size: 16px;
+    line-height: 1.5rem;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-weight: 600;
 }
 
 }
